@@ -1,0 +1,412 @@
+.box {
+    border: dashed 2px #c7c7c7;
+}
+
+/* Style the counter cards */
+  .logo {
+    width: 9%;
+    height: auto;
+  }
+
+  .video-100 {
+    width: 100%;
+    border: white;
+    height: 146%;
+  }
+  .content-style {
+    font-family: "Frutiger Neue W01",Arial,sans-serif;
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: rgb(156, 156, 156);
+  }
+.carousel-image-2 {
+  bottom: -150px;
+  position: absolute;
+  width: 100%;
+  /* height: 100%; */
+  border: white;
+}
+
+  .blog-video {
+    width: 100%;
+    /* height: 100%; */
+    border: white;
+  }
+  .cursive-style {
+    color: black;
+    font-style: italic;
+    font-family: "adobe-text-pro",serif;
+    text-align: center;
+  }
+  .carousel-item {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+  }
+  
+  .height {
+    height: 600px !important;
+  }
+  
+  .carousel-image {
+    position: absolute;
+  }
+  
+  .absolute {
+    position: absolute;
+    background: #00000045;
+  }
+
+  .absolute-2 {
+    position: absolute;
+    top: -99px;
+  }
+  
+  .background {
+    filter: brightness(0.7);
+  }
+  
+  .border-content-type {
+    padding: 10px;
+    border: solid 2px #dee2e6;
+  }
+  
+  .content-type {
+    color: #818182d9;
+  }
+  
+  .grey {
+    color: grey
+  }
+  
+  .light-grey {
+    color: #80808070
+  } 
+  
+  .top {
+    padding: 10px 
+    0px;
+  }
+  
+  .tiny {
+    font-size: 12px;
+  }
+  
+  .img-avatar {
+    width: 30px !important;
+    height: 30px !important;
+  }
+  
+  .breadcrumb {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1.75rem 1rem;
+    margin-bottom: 1rem;
+    list-style: none;
+    background-color: #ffffff00;
+    border-radius: .25rem;
+  }
+  
+  .navbar.fixed-top {
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.1);
+  }
+  
+  .icon-navbar {
+    width: 20px;
+  }
+  
+  .dark-background{
+    filter: brightness(0.7)!important;
+  }
+  
+  .react-parallax {
+    height: 550px !important;
+  }
+  
+  .hero-heading {
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-bottom: 2rem;
+    font-size: 4.05rem !important;
+  }
+  
+  .purple {
+    color: #aa85e6;
+  }
+  
+  .for-blue {
+    background-color: #668cb9;
+  }
+  
+  .for-white {
+    background-color: #fff;
+  }
+  
+  .for-violet {
+    background-color: #8b6ea4;
+  }
+  .for-red {
+    background-color: #dd6265;
+  }
+
+  img {
+    border-style: none;
+    max-width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+  }
+
+  .video {
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+
+  .text-sm {
+    font-size:18px
+  }
+
+  .text-grey-adidas {
+    color: #767677;
+    flex: 1 1 auto;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size:12px
+  }
+  .text-grey-adidas-sm {
+    color: #979797;
+    flex: 1 1 auto;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size:10px
+  }
+
+  body {
+    font-family: AdihausDIN,Helvetica,Arial,sans-serif !important;
+    font-style: normal!important;;
+    font-weight: 400!important;;
+    background-color: #fff!important;;
+    color: #000!important;;
+    -moz-osx-font-smoothing: grayscale!important;;
+    margin: 0!important;;
+    overflow-y: scroll!important;;
+    padding: 0!important;;
+    text-rendering: optimizeLegibility!important;;
+    text-transform: none!important;;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .font-weight-bold-2 {
+    font-weight: 800
+  }
+
+  .card {
+    position: relative !important;
+    display: flex !important;
+    flex-direction: column !important;
+    min-width: 0 !important;
+    word-wrap: break-word !important;
+    background-color: #fff !important;
+    background-clip: border-box !important;
+    border: 1px solid #fff !important;
+    border-radius: 0px !important;
+}
+
+.module {
+  height: 100vh; /* Use vh as a fallback for browsers that do not support Custom Properties */
+  height: calc(var(--vh, 1vh) * 100);
+  margin: 0 auto;
+  max-width: 30%;
+}
+
+.module__item {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.module__item:nth-child(odd) {
+  background-color: #fff;
+}
+
+.module__item:nth-child(even) {
+  color: #F1D08A;
+}
+
+.text-xs {
+  font-size: 15px;
+}
+
+.absolute-3 {
+  position: absolute;
+  top: 20px;
+}
+
+.brand-adidas {
+  opacity: 10%;
+}
+
+.brand-col {
+  flex: 0 0 8.333333%;
+  max-width: 8.333333%;
+}
+
+.border-black {
+  border: solid 1px black !important;
+}
+
+.adidas-brand-2 {
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  object-fit: cover;
+  transform: none;
+  display: block;
+  margin-bottom: -1px;
+  min-width: 70%;
+  min-height: 100%;
+  width: 50%;
+  height: 80%;
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  transform: translate(-50%,-50%);
+}
+
+.adidas-brand-3 {
+  display: block;
+  margin-bottom: -1px;
+  min-width: 100%;
+  min-height: 100%;
+  width: 100%;
+  transform: translate(-50%,-50%);
+  object-fit: contain;
+  transform: scale(1.6);
+  top: -80px;
+  z-index: 0;
+}
+.position-ad2 {
+  position: relative;
+  bottom: -215px;
+}
+
+.font-bold {
+  bottom: -240px;
+  font-weight: 800!important;
+}
+.btn-light {
+  background: #fff!important;
+}
+
+.link-bt  {
+  bottom: -220px;
+}
+
+.carousel-control-next, .carousel-control-prev {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+  display: none;
+  align-items: center;
+  width: 0;
+  color: red;
+  opacity: 0!important;
+  transition: opacity 0s ease;
+}
+
+.spot {
+  height: 230px;
+  width: 1000px;
+  position: absolute;
+  z-index: 9999;
+  bottom: 22px;
+  left: -10px;
+  z-index: 1;
+}
+
+
+.space-mobile {
+  top: 57px;
+  position: relative;
+  margin: 0;
+  z-index: 9;
+}
+
+.space-mobile-2{
+  top: 29px;
+  position: relative;
+  margin: 0;
+  z-index: 9;
+}
+
+.z-i {
+  position: relative;
+  z-index: 9999;
+  top: -45px;
+}
+
+.box-shadow {
+  box-shadow: 9px 9px 0px 0px #0000001f;
+  left: -1px;
+}
+
+.previewbox{
+  float: right;
+  position: absolute;
+  z-index: 9;
+  background: black;
+  color: white;
+  padding: 2px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.previewboxmobile {
+  position: relative;
+  z-index: 9;
+  background: black;
+  color: white;
+  padding: 5px;
+  bottom: -27px;
+
+}
+
+.background-product {
+  background: #8080800a;
+}
+.kaHnvc {
+    color: black !important; 
+    z-index: 1 !important;;
+    position: absolute;
+    left: -18px !important;
+    top: -59px !important;
+}
+
+.dFFQiB {
+  color: black !important;
+  z-index: 1 !important;
+  position: absolute !important;;
+  right: -17px !important;
+  top: -59px !important;;
+}
+
+.btn-light {
+  background: white !important;
+  color: black !important;
+
+}
+
+.btn-light:hover {
+  background: black !important;
+  color: white !important;
+
+}
+

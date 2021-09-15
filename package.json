@@ -1,0 +1,47 @@
+{
+  "name": "learn-starter",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@adidas/yarn-design-system": "^1.5.5",
+    "@apollo/client": "^3.3.8",
+    "@commercetools/sdk-middleware-http": "^6.0.10",
+    "@contentful/rich-text-html-renderer": "^14.1.2",
+    "@contentful/rich-text-react-renderer": "^14.1.2",
+    "@fortawesome/fontawesome-svg-core": "^1.2.34",
+    "@fortawesome/free-solid-svg-icons": "^5.15.2",
+    "@fortawesome/pro-duotone-svg-icons": "^5.15.2",
+    "@fortawesome/pro-light-svg-icons": "^5.15.2",
+    "@fortawesome/pro-regular-svg-icons": "^5.15.2",
+    "@fortawesome/pro-solid-svg-icons": "^5.15.2",
+    "@fortawesome/react-fontawesome": "^0.1.14",
+    "apollo-server-micro": "^2.19.2",
+    "bootstrap": "^4.6.0",
+    "contentful": "^8.1.7",
+    "contentful-management": "^7.19.1",
+    "cors": "^2.8.5",
+    "graphql": "^15.5.0",
+    "lodash": "^4.17.20",
+    "moment": "^2.29.1",
+    "next": "^10.0.6",
+    "next-server": "^9.0.5",
+    "react": "17.0.1",
+    "react-bootstrap": "^1.4.3",
+    "react-dom": "17.0.1",
+    "react-helmet": "^6.1.0",
+    "react-image": "^4.0.3",
+    "react-items-carousel": "^2.8.0",
+    "react-parallax": "^3.2.0",
+    "react-refresh": "^0.8.3",
+    "react-scroll-parallax": "^2.3.5"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.25",
+    "typescript": "^4.1.3"
+  }
+}
