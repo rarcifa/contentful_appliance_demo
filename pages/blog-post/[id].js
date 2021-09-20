@@ -74,14 +74,14 @@ export default function Blog({ data, navbar }) {
           </div>
         </div>
       </section>
-      {console.log(data)}
+
       {/* Second Section */}
       <section>
         <div className="container">
           <div className="row">
             <div className="col-xl-10 mx-auto">
 
-              <img className="img-fluid rounded mx-auto d-block" src={data.featuredImage.fields.file.url} alt={data.title} />
+              <img className="rounded mx-auto d-block" src={data.featuredImage.fields.file.url} alt={data.title} />
 
             </div>
           </div>

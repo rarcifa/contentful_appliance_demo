@@ -644,8 +644,7 @@ pre tt:after {
 }
 
 .carousel-image {
-  bottom: -150px;
-  position: absolute;
+  object-fit: cover;
 }
 
 .absolute {
@@ -655,6 +654,11 @@ pre tt:after {
 
 .background {
   filter: brightness(0.7);
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  color: #fff;
+  background-color: #dc3545 !important;
 }
 
 .border-content-type {
@@ -748,8 +752,15 @@ pre tt:after {
   width: 60%;
 }
 
+
+.img-fluid {
+  width: 100% !important;
+  max-width: 100% !important;
+  height: 139px !important;
+  object-fit: cover !important;
+}
 .logo-brand {
-  background: #007bff;
+  background: #dc3545;
   color: #fff;
   padding: 3.6px 5px 4px 6.4px;
   border-radius: 5px;

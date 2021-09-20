@@ -111,10 +111,10 @@ export default function Category({ data, products, commerceToolsItems, navbar}) 
               <div className="expand-lg collapse" id="categoriesMenu">
                 <div className="nav nav-pills flex-column mt-4 mt-lg-0">
                   <a className="nav-link d-flex justify-content-between mb-2 " href="/">
-                    <span>Jackets</span><span className="sidebar-badge"> 120</span>
+                    <span>Kitchen</span><span className="sidebar-badge"> 120</span>
                   </a>
                   <div className="nav nav-pills flex-column ml-3"><a className="nav-link mb-2" href="/">Lorem ipsum</a><a className="nav-link mb-2" href="/">Dolor</a><a className="nav-link mb-2" href="/">Sit amet</a><a className="nav-link mb-2" href="/">Donec vitae</a>
-                  </div><a className="nav-link d-flex justify-content-between mb-2 active" href="/"><span>Jeans &amp; chinos</span><span className="sidebar-badge"> 55</span></a>
+                  </div><a className="nav-link d-flex justify-content-between mb-2 active" href="/"><span>Appliances</span><span className="sidebar-badge"> 55</span></a>
                   <div className="nav nav-pills flex-column ml-3"><a className="nav-link mb-2" href="/">Lorem ipsum</a><a className="nav-link mb-2" href="/">Dolor</a><a className="nav-link mb-2" href="/">Sit amet</a><a className="nav-link mb-2" href="/">Donec vitae</a>
                   </div><a className="nav-link d-flex justify-content-between mb-2 " href="/"><span>Accessories</span><span className="sidebar-badge"> 80</span></a>
                   <div className="nav nav-pills flex-column ml-3"><a className="nav-link mb-2" href="/">Sit amet</a><a className="nav-link mb-2" href="/">Donec vitae</a><a className="nav-link mb-2" href="/">Lorem ipsum</a><a className="nav-link mb-2" href="/">Dolor</a>
@@ -136,7 +136,7 @@ const Products = ({ node }) => {
       <div className="product">
         <div className="product-image">
           {node.fields.newArrival === "Yes" &&
-            <div className="ribbon ribbon-info">
+            <div className="ribbon ribbon-warning">
               New
               </div>
           }

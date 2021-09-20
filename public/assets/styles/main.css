@@ -27,6 +27,11 @@
   border: white;
 }
 
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  color: #fff;
+  background-color: #dc3545 !important;
+}
+
   .blog-video {
     width: 100%;
     /* height: 100%; */
