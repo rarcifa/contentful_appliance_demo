@@ -606,7 +606,7 @@
         "id": "product",
         "type": "ContentType",
         "createdAt": "2021-01-19T09:43:47.233Z",
-        "updatedAt": "2021-04-27T13:43:20.125Z",
+        "updatedAt": "2021-10-15T11:30:19.722Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -614,8 +614,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 41,
-        "publishedAt": "2021-04-27T13:43:20.125Z",
+        "publishedVersion": 45,
+        "publishedAt": "2021-10-15T11:30:19.722Z",
         "firstPublishedAt": "2021-01-19T09:43:47.992Z",
         "createdBy": {
           "sys": {
@@ -631,8 +631,8 @@
             "id": "6kLwL9xqs6upj8NtYJC4Mc"
           }
         },
-        "publishedCounter": 21,
-        "version": 42,
+        "publishedCounter": 23,
+        "version": 46,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -729,11 +729,6 @@
           "localized": false,
           "required": false,
           "validations": [
-            {
-              "linkContentType": [
-                "mediaWrapper"
-              ]
-            }
           ],
           "disabled": false,
           "omitted": false,
@@ -752,11 +747,6 @@
           "items": {
             "type": "Link",
             "validations": [
-              {
-                "linkContentType": [
-                  "mediaWrapper"
-                ]
-              }
             ],
             "linkType": "Entry"
           }
@@ -766,7 +756,7 @@
           "name": "Category",
           "type": "Array",
           "localized": false,
-          "required": true,
+          "required": false,
           "validations": [
           ],
           "disabled": false,
@@ -813,7 +803,7 @@
             }
           ],
           "disabled": false,
-          "omitted": false,
+          "omitted": true,
           "linkType": "Entry"
         }
       ]
@@ -3600,7 +3590,7 @@
             "linkType": "Space"
           }
         },
-        "version": 47,
+        "version": 51,
         "createdAt": "2021-01-19T09:43:48.188Z",
         "createdBy": {
           "sys": {
@@ -3609,7 +3599,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2021-08-06T12:46:03.838Z",
+        "updatedAt": "2021-10-15T11:30:20.873Z",
         "updatedBy": {
           "sys": {
             "id": "6kLwL9xqs6upj8NtYJC4Mc",
